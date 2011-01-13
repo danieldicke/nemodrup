@@ -1,0 +1,56 @@
+$Id:
+
+Fri 10 Sep 2010 20:54:54 CEST 
+
+MultiLink
+* Bug fix to multilink_url - preferred language was not set properly, so urls would not use it.
+
+MultiLink Secure Pages
+* Minor fix to function definition to prevent PHP warnings about pass-by-reference.
+
+To release as 2.4
+
+
+Fri 10 Sep 2010 18:30:32 CEST 
+
+MultiLink:
+* Changed multilink_nodeapi() and _mulitlink_cache() to address cache update issue when deleting nodes. See [#907724]
+
+Fri 10 Sep 2010 06:10:49 CEST 
+
+MultiLink:
+* Changed to use user's language preference when generating url, see [#796822]
+
+MultiLink Redirect
+* Added 'bypass multilink redirect' permission to prevent redirect for admin and any other assigned roles (for testing or translation team.)
+
+To be released as 2.2.
+
+Tue 11 May 2010 15:04:16 CEST 
+
+MultiLink Redirect:
+* Fixed #795798 (redirect loop when Clean URLs disabled.)
+
+Thu 15 Apr 2010 21:23:53 CEST 
+Extensive changes: 
+* Added new modules: MultiLink Redirect and MultiLink SecurePages
+* Added support for new modules in multilink.module.
+* Renamed _multilink functions get_link and _build_link to _getnode and _buildnode.
+
+To be released as 2.0 so as to keep a 1.x branch in case needed.
+
+Mon 12 Apr 2010 18:01:54 CEST 
+
+* Added 'format_test' mode which makes it easier to test input formats before enabling other filter modules.
+* Fixed #769076 - Bug in InsertNode regexp.
+* Added support for LinoDef and Link-node formats.
+* Removed config 'use_alias' option, now always done for urls (not for node tags such as PathFilter and InsertNode).
+* Fixed: 'absolute' setting was not initialised correctly on config form.
+* To release as 1.2
+
+-----
+
+* Now supports various other link formats - Markdown, PathFilter, InsertNode and HTML.
+* Allowed output caching (configurable) if check_markup_language_patch_1 is installed.
+* To release as 1.1
+

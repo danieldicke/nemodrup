@@ -1,0 +1,14 @@
+; $Id: l10n_drupal.info,v 1.1.2.1 2010/03/31 13:53:00 goba Exp $
+name = "Localization server for Drupal"
+description = Extracts translatable strings from Drupal packages.
+dependencies[] = l10n_server
+dependencies[] = potx
+package = "Localization server connectors"
+core = 6.x
+
+; Information added by drupal.org packaging script on 2011-01-10
+version = "6.x-3.x-dev"
+core = "6.x"
+project = "l10n_server"
+datestamp = "1294662007"
+

@@ -1,0 +1,14 @@
+; $Id: l10n_groups.info,v 1.1.2.1.2.2 2009/12/27 08:08:51 goba Exp $
+name = "Localization groups"
+description = Organic groups mapping for localization server
+dependencies[] = og_user_roles
+dependencies[] = l10n_community
+package = "Localization server"
+core = 6.x
+
+; Information added by drupal.org packaging script on 2011-01-10
+version = "6.x-3.x-dev"
+core = "6.x"
+project = "l10n_server"
+datestamp = "1294662007"
+

@@ -1,0 +1,13 @@
+; $Id: l10n_remote.info,v 1.1.2.1 2008/10/20 22:29:52 goba Exp $
+name = "Localization remote API"
+description = Provides an XML-RPC server interface to handle remote translation submissions.
+dependencies[] = l10n_community
+package = "Localization server"
+core = 6.x
+
+; Information added by drupal.org packaging script on 2011-01-10
+version = "6.x-3.x-dev"
+core = "6.x"
+project = "l10n_server"
+datestamp = "1294662007"
+
